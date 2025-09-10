@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <section className="container">
-      <h2>About RKbyte</h2>
+      <h2>Who we are :</h2>
       <p>
         RKbyte is building affordable, IoT-powered automation systems for biotech labs and
         industrial spaces. Our solutions simplify complex workflows, reduce errors, and
