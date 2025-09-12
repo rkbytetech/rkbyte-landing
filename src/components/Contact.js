@@ -81,7 +81,7 @@ function Contact() {
 
         {status === "success" && (
           <p style={{ color: "green" }}>
-            Message saved to RKbyte Google Sheet ✅
+            Message received , we will get back shortly ✅
           </p>
         )}
         {status === "error" && (
