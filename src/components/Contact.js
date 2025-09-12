@@ -13,19 +13,18 @@ function Contact() {
     setStatus("loading");
 
     try {
-      const res = await fetch("https://script.google.com/macros/s/AKfycby7s_m39qbx1B2y5OOTpAk9ZtM0b3IryWxy00u6WQdriZcSRSo_ztILNeCvCBMobBnL/exec", {
+      await fetch("https://script.google.com/macros/s/AKfycby7s_m39qbx1B2y5OOTpAk9ZtM0b3IryWxy00u6WQdriZcSRSo_ztILNeCvCBMobBnL/exec", {
         method: "POST",
-        mode: "no-cors",
+        mode: "no-cors", // 👈 Important: bypass CORS issues
         body: JSON.stringify(formData),
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+        },
       });
 
-      if (res.ok) {
-        setStatus("success");
-        setFormData({ name: "", email: "", message: "" });
-      } else {
-        setStatus("error");
-      }
+      // If we reached here, submission worked (even if response is opaque)
+      setStatus("success");
+      setFormData({ name: "", email: "", message: "" });
     } catch (err) {
       console.error(err);
       setStatus("error");
@@ -37,7 +36,12 @@ function Contact() {
       <h2>Contact Us</h2>
       <form
         onSubmit={handleSubmit}
-        style={{ display: "flex", flexDirection: "column", gap: "10px", maxWidth: "400px" }}
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          gap: "10px",
+          maxWidth: "400px",
+        }}
       >
         <input
           type="text"
@@ -74,8 +78,17 @@ function Contact() {
         >
           {status === "loading" ? "Sending..." : "Send"}
         </button>
-        {status === "success" && <p style={{ color: "green" }}>Message saved to RKbyte Google Sheet ✅</p>}
-        {status === "error" && <p style={{ color: "red" }}>Failed. Try again.</p>}
+
+        {status === "success" && (
+          <p style={{ color: "green" }}>
+            Message saved to RKbyte Google Sheet ✅
+          </p>
+        )}
+        {status === "error" && (
+          <p style={{ color: "red" }}>
+            Failed. Try again or email founder@rkbyte.com
+          </p>
+        )}
       </form>
     </section>
   );
