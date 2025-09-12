@@ -15,6 +15,7 @@ function Contact() {
     try {
       const res = await fetch("https://script.google.com/macros/s/AKfycby7s_m39qbx1B2y5OOTpAk9ZtM0b3IryWxy00u6WQdriZcSRSo_ztILNeCvCBMobBnL/exec", {
         method: "POST",
+        mode: "no-cors",
         body: JSON.stringify(formData),
         headers: { "Content-Type": "application/json" },
       });
