@@ -4,17 +4,22 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-200 py-6 mt-8">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-6 gap-6">
+    <footer className="bg-gray-900 text-gray-200 py-10 mt-8">
+      <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
         
-        {/* Logo + Branding */}
-        <div className="flex items-center gap-2">
-          <img src="/logo.png" alt="RKbyte Logo" className="h-8 w-auto" />
-          <span className="font-semibold text-white">RKbyte</span>
+        {/* Left: Logo + tagline */}
+        <div className="flex items-center gap-3">
+          <img src="/logo.png" alt="RKbyte" className="h-8 w-auto" />
+          <div>
+            <div className="font-semibold">RKbyte</div>
+            <div className="text-sm text-gray-400">
+              Smart Automation. Real Impact.
+            </div>
+          </div>
         </div>
-        
-        {/* Navigation Links */}
-        <div className="flex gap-6 text-sm">
+
+        {/* Center: Nav Links */}
+        <div className="flex flex-col md:flex-row gap-3 md:gap-8 text-sm text-center md:text-left">
           <Link to="/" className="hover:text-rkaccent">Home</Link>
           <Link to="/category/biotech" className="hover:text-rkaccent">Biotech</Link>
           <Link to="/category/agriculture" className="hover:text-rkaccent">Agriculture</Link>
@@ -25,8 +30,8 @@ export default function Footer() {
           <Link to="/terms" className="hover:text-rkaccent">Terms</Link>
         </div>
 
-        {/* Social Icons */}
-        <div className="flex gap-6">
+        {/* Right: Social Icons */}
+        <div className="flex gap-5">
           <a href="https://instagram.com/rkbyte" target="_blank" rel="noopener noreferrer" className="hover:text-rkaccent">
             <Instagram size={20} />
           </a>
@@ -39,9 +44,9 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom Note */}
-      <div className="text-center text-gray-500 text-sm mt-6">
-        © {new Date().getFullYear()} RKbyte. Smart Automation. Real Impact.
+      {/* Bottom copyright */}
+      <div className="text-center text-gray-500 text-xs mt-8">
+        © {new Date().getFullYear()} RKbyte. All rights reserved.
       </div>
     </footer>
   );
