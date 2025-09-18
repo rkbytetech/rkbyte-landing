@@ -1,20 +1,25 @@
 import React from "react";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Products from "./components/Products";
-import Contact from "./components/Contact";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import DIMS from "./pages/DIMS";
+import CategoryPage from "./pages/CategoryPage";
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-function App() {
+export default function App(){
   return (
-    <div>
-      <Hero />
-      <About />
-      <Products />
-      <Contact />
-      <Footer />
-    </div>
+    <Router>
+      <div className="min-h-screen flex flex-col">
+        <Navbar />
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home/>} />
+            <Route path="/category/:slug" element={<CategoryPage/>} />
+            <Route path="/dims" element={<DIMS/>} />
+          </Routes>
+        </main>
+        <Footer/>
+      </div>
+    </Router>
   );
 }
-
-export default App;
