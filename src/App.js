@@ -5,6 +5,7 @@ import DIMS from "./pages/DIMS";
 import CategoryPage from "./pages/CategoryPage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ContactPage from "./pages/ContactPage";
 
 export default function App(){
   return (
@@ -16,6 +17,7 @@ export default function App(){
             <Route path="/" element={<Home/>} />
             <Route path="/category/:slug" element={<CategoryPage/>} />
             <Route path="/dims" element={<DIMS/>} />
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </main>
         <Footer/>

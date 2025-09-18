@@ -21,7 +21,8 @@ export default function Navbar(){
           <Link to="/category/agriculture" className="hover:text-rkaccent">Agriculture</Link>
           <Link to="/category/industrial" className="hover:text-rkaccent">Industrial</Link>
           <Link to="/category/home-automation" className="hover:text-rkaccent">Home</Link>
-          <a href="#contact" className="bg-rkaccent text-white px-4 py-2 rounded">Contact</a>
+          <Link to="/contact" className="bg-rkaccent text-white px-4 py-2 rounded">Contact</Link>
+
 
           {/* Social Icons */}
           <a href="https://instagram.com/rkbyte.tech" target="_blank" rel="noopener noreferrer" className="hover:text-rkaccent">
