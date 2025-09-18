@@ -2,8 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --rkbg: #0a0f0d;
-  --rkaccent: #00d4a8;
+/* Mobile-friendly tweaks */
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+:root{ --rkbg: #0a0f0d; --rkaccent:#00d4a8; }
+body { @apply bg-gray-50 text-gray-900; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+/* Make buttons easier to tap on mobile */
+button, .btn {
+  min-height: 44px;
+  min-width: 120px;
 }
-body { @apply bg-gray-50 text-gray-900; }
+
+/* Prevent overflowing long words/emails */
+.break-word { word-break: break-word; overflow-wrap: anywhere; }
