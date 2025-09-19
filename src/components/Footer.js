@@ -32,7 +32,7 @@ export default function Footer() {
 
         {/* Right: Social Icons */}
         <div className="flex gap-5">
-          <a href="https://instagram.com/rkbyte" target="_blank" rel="noopener noreferrer" className="hover:text-rkaccent">
+          <a href="https://instagram.com/rkbyte.tech" target="_blank" rel="noopener noreferrer" className="hover:text-rkaccent">
             <Instagram size={20} />
           </a>
           <a href="https://linkedin.com/company/rkbyte" target="_blank" rel="noopener noreferrer" className="hover:text-rkaccent">

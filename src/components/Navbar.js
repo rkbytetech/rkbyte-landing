@@ -62,7 +62,7 @@ export default function Navbar() {
               Contact
             </Link>
             <a
-              href="https://instagram.com/rkbyte"
+              href="https://instagram.com/rkbyte.tech"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-rkaccent"
@@ -82,7 +82,7 @@ export default function Navbar() {
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center gap-2">
             <a
-              href="https://instagram.com/rkbyte"
+              href="https://instagram.com/rkbyte.tech"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-rkaccent"
@@ -130,7 +130,7 @@ export default function Navbar() {
             <div className="pt-3 border-t flex items-center justify-between">
               <div className="flex gap-3">
                 <a
-                  href="https://instagram.com/rkbyte"
+                  href="https://instagram.com/rkbyte.tech"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-rkaccent"
