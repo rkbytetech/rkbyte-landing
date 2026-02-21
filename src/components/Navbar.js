@@ -53,13 +53,16 @@ export default function Navbar() {
               Industrial
             </Link>
             <Link to="/category/home-automation" className="text-sm text-gray-700 hover:text-rkaccent">
-              Home
+              HomeAuto
             </Link>
             <Link
-              to="/contact"
+              to="/about"
               className="text-sm bg-rkaccent text-black px-4 py-2 rounded shadow-sm hover:shadow-md transition"
             >
-              Contact
+              About Us
+            </Link>
+            <Link to="/blog" className="hover:text-rkaccent transition">
+              Blog
             </Link>
             <a
               href="https://instagram.com/rkbyte.tech"
@@ -120,11 +123,14 @@ export default function Navbar() {
               Home Automation
             </Link>
             <Link
-              to="/contact"
+              to="/about"
               onClick={() => setOpen(false)}
               className="block mt-2 bg-rkaccent text-black text-center py-2 rounded shadow hover:shadow-md transition"
             >
-              Contact
+              About Us
+            </Link>
+            <Link to="/blog" onClick={() => setOpen(false)} className="block py-2 text-gray-700">
+              Blog
             </Link>
 
             <div className="pt-3 border-t flex items-center justify-between">

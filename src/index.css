@@ -2,16 +2,85 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Mobile-friendly tweaks */
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
-:root{ --rkbg: #0a0f0d; --rkaccent:#00d4a8; }
-body { @apply bg-gray-50 text-gray-900; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+/* ---------- animated gradient for hero ---------- */
+/* Put this in src/index.css (after @tailwind directives) */
+
+:root {
+  --rk-accent: #00d4a8; /* match your rkaccent */
+  --rkbg: #0a0f0d;
+  --rkaccent: #00d4a8;
+}
+
+/* animated gradient background (subtle) */
+.hero-gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 168, 0.12) 0%,
+    rgba(255, 255, 255, 1) 45%,
+    rgba(0, 212, 168, 0.08) 100%
+  );
+  background-size: 300% 100%;
+  animation: rk-gradient 14s linear infinite;
+}
+
+/* optional stronger variant */
+.hero-gradient-strong {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 168, 0.14) 0%,
+    rgba(255, 255, 255, 1) 45%,
+    rgba(0, 212, 168, 0.12) 100%
+  );
+  background-size: 300% 100%;
+  animation: rk-gradient 12s linear infinite;
+}
+
+@keyframes rk-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* light motion-reduce fallback */
+@media (prefers-reduced-motion: reduce) {
+  .hero-gradient,
+  .hero-gradient-strong {
+    animation: none;
+    background-size: cover;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+
+  /* Text resizing control */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%; /* for older iOS Safari */
+}
+
+body {
+  @apply bg-gray-50 text-gray-900;
+
+  /* Font smoothing (non-standard but okay to keep for macOS/iOS users) */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 /* Make buttons easier to tap on mobile */
-button, .btn {
+button,
+.btn {
   min-height: 44px;
   min-width: 120px;
 }
 
 /* Prevent overflowing long words/emails */
-.break-word { word-break: break-word; overflow-wrap: anywhere; }
+.break-word {
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}

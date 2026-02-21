@@ -3,22 +3,26 @@
     {
       "slug": "biotech",
       "title": "Biotech",
-      "description": "Automation for labs and research"
+      "description": "Automation for labs and research",
+      "heroImg": "/hero-biotech.png"
     },
     {
       "slug": "agriculture",
       "title": "Agriculture",
-      "description": "Smart farm automation"
+      "description": "Smart farm automation",
+      "heroImg": "/hero-agri.png"
     },
     {
       "slug": "industrial",
       "title": "Industrial",
-      "description": "Factory & process automation"
+      "description": "Factory & process automation",
+      "heroImg": "/hero-industrial.png"
     },
     {
       "slug": "home-automation",
       "title": "Home Automation",
-      "description": "Smart home systems"
+      "description": "Smart home systems",
+      "heroImg": "/hero-home.png"
     }
   ],
   "products": [
@@ -27,65 +31,59 @@
       "category": "biotech",
       "title": "Drug Inventory Management System (DIMS)",
       "short": "Track inventory, temps, and expiries with IoT-backed alerts.",
-      "features": [
-        "IoT temp",
-        "Barcode",
-        "Stock alerts"
-      ]
+      "features": ["IoT temp", "Barcode", "Stock alerts"],
+      "img": "/products/dims.png"
     },
     {
       "slug": "photobioreactor",
       "category": "biotech",
       "title": "Automated Photobioreactor",
-      "short": "Control pH, temp, light for cultures."
-    },
-    {
-      "slug": "laminar-flow",
-      "category": "biotech",
-      "title": "Laminar Flow Automation",
-      "short": "Controlled airflow and UV sterilization."
-    },
-    {
-      "slug": "bottle-washer",
-      "category": "biotech",
-      "title": "Smart Bottle Washer",
-      "short": "Automated cleaning for labware."
+      "short": "Control pH, temp, and light for cultures.",
+      "img": "/products/photobioreactor.png"
     },
     {
       "slug": "smart-irrigation",
       "category": "agriculture",
       "title": "Smart Irrigation Controller",
-      "short": "Soil-moisture-based irrigation."
+      "short": "Soil-moisture-based irrigation with analytics.",
+      "features": ["Soil sensors", "Auto-valves", "Scheduling"],
+      "img": "/products/irrigation.png"
     },
     {
       "slug": "greenhouse",
       "category": "agriculture",
       "title": "Greenhouse Environment Monitor",
-      "short": "Monitor humidity, temperature, light."
+      "short": "Monitor humidity, temperature and light levels.",
+      "img": "/products/greenhouse.png"
     },
     {
       "slug": "energy-monitor",
       "category": "industrial",
       "title": "Energy Monitoring System",
-      "short": "Dashboard for energy usage."
+      "short": "Factory energy dashboards and alerts.",
+      "features": ["Real-time meters", "Reports", "Alerts"],
+      "img": "/products/energy.png"
     },
     {
       "slug": "predictive-maintenance",
       "category": "industrial",
       "title": "Predictive Maintenance System",
-      "short": "Monitor motors, vibration, and temp."
+      "short": "Sensor-driven maintenance for motors and pumps.",
+      "img": "/products/predictive.png"
     },
     {
       "slug": "smart-lighting",
       "category": "home-automation",
       "title": "Smart Lighting System",
-      "short": "App/voice-controlled lighting."
+      "short": "App/voice-controlled lighting with scenes.",
+      "img": "/products/lighting.png"
     },
     {
       "slug": "smart-hvac",
       "category": "home-automation",
       "title": "Smart HVAC Controller",
-      "short": "Monitor and adjust room climate."
+      "short": "Optimize comfort and energy usage.",
+      "img": "/products/hvac.png"
     }
   ]
 }
