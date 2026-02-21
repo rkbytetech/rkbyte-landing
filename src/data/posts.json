@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "title": "Why Affordable Automation is the Future of Biotech Labs",
+    "slug": "affordable-automation-biotech",
+    "date": "2025-09-20",
+    "author": "RKbyte Team",
+    "excerpt": "Biotech labs are moving from manual workflows to smart automation. Here's why affordable solutions matter.",
+    "image": "/blog/biotech-lab.jpg",
+    "content": [
+      "Automation is transforming biotech labs, making processes faster, more accurate, and less expensive.",
+      "At RKbyte, we believe affordable IoT solutions will democratize biotech research for startups and institutions alike."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Smart Irrigation: How IoT is Changing Agriculture",
+    "slug": "smart-irrigation-iot",
+    "date": "2025-09-22",
+    "author": "RKbyte Team",
+    "excerpt": "Farmers are adopting IoT-powered irrigation systems to save water and increase yields.",
+    "image": "/blog/agriculture.jpg",
+    "content": [
+      "IoT in agriculture is enabling real-time monitoring of soil moisture and crop health.",
+      "Our smart irrigation solutions bring precision agriculture within reach of every farmer."
+    ]
+  }
+]
