@@ -3,11 +3,15 @@ const path = require("path");
 
 const siteUrl = "https://www.rkbyte.com";
 
-// Load your data correctly
+// Load data
 const productsData = require("./src/data/products.json");
 const products = productsData.products;
 
 const posts = require("./src/data/posts.json");
+
+function today() {
+  return new Date().toISOString().split("T")[0];
+}
 
 function generateSitemap() {
   const staticRoutes = [
@@ -18,22 +22,30 @@ function generateSitemap() {
     "/blog"
   ];
 
-  const productRoutes = products.map(
-    (product) => `/products/${product.slug}`
-  );
+  const productRoutes = products.map((product) => ({
+    url: `/products/${product.slug}`,
+    lastmod: today()
+  }));
 
-  const blogRoutes = posts.map(
-    (post) => `/blog/${post.slug}`
-  );
+  const blogRoutes = posts.map((post) => ({
+    url: `/blog/${post.slug}`,
+    lastmod: post.date
+  }));
 
-  const allRoutes = [...staticRoutes, ...productRoutes, ...blogRoutes];
+  const staticRouteObjects = staticRoutes.map((route) => ({
+    url: route,
+    lastmod: today()
+  }));
+
+  const allRoutes = [...staticRouteObjects, ...productRoutes, ...blogRoutes];
 
   const urls = allRoutes
-    .map((route) => {
+    .map((routeObj) => {
       return `
   <url>
-    <loc>${siteUrl}${route}</loc>
-    <priority>${route === "" ? "1.00" : "0.80"}</priority>
+    <loc>${siteUrl}${routeObj.url}</loc>
+    <lastmod>${routeObj.lastmod}</lastmod>
+    <priority>${routeObj.url === "" ? "1.00" : "0.80"}</priority>
   </url>`;
     })
     .join("");
@@ -48,7 +60,7 @@ ${urls}
     sitemap
   );
 
-  console.log("✅ Sitemap generated successfully!");
+  console.log("✅ Sitemap with <lastmod> generated successfully!");
 }
 
 generateSitemap();

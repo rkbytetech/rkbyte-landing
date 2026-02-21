@@ -4,41 +4,105 @@ import data from "../data/products.json";
 
 export default function ProductDetail() {
   const { slug, productSlug } = useParams();
-  const product = data.products.find(p => p.slug === productSlug && p.category === slug);
+  const product = data.products.find(
+    (p) => p.slug === productSlug && p.category === slug
+  );
 
   if (!product) {
     return (
       <div className="container mx-auto px-6 py-20">
         <h2 className="text-2xl font-semibold">Product not found</h2>
-        <p className="text-gray-600 mt-2">Return to <Link to={`/category/${slug}`}>category page</Link>.</p>
+        <p className="text-gray-600 mt-2">
+          Return to{" "}
+          <Link className="text-rkaccent" to={`/category/${slug}`}>
+            category page
+          </Link>.
+        </p>
       </div>
     );
   }
 
   return (
-    <div className="container mx-auto px-6 py-12">
-      <div className="bg-white rounded-lg shadow p-8">
-        <div className="md:flex gap-8">
-          <div className="md:w-1/3">
-            <img src={product.img || "/product-placeholder.png"} alt={product.title} className="w-full object-contain" />
-          </div>
-          <div className="md:flex-1">
-            <h1 className="text-3xl font-bold">{product.title}</h1>
-            <p className="text-gray-600 mt-4">{product.short}</p>
+    <section className="bg-gray-950 text-white min-h-screen py-20">
+      <div className="container mx-auto px-6">
 
-            {product.features && (
-              <ul className="list-disc ml-6 mt-4 text-gray-700">
-                {product.features.map((f, i) => <li key={i}>{f}</li>)}
-              </ul>
-            )}
+        {/* HERO SECTION */}
+        <div className="md:flex gap-12 items-center mb-20">
+          <div className="md:w-1/2">
+            <h1 className="text-5xl font-extrabold mb-6">
+              {product.title}
+            </h1>
+            <p className="text-gray-400 text-lg mb-6">
+              {product.short}
+            </p>
 
-            <div className="mt-6 flex gap-3">
-              <a href="/contact#contact" className="bg-rkaccent text-black px-4 py-2 rounded">Request Demo</a>
-              <a href="mailto:founder@rkbyte.com" className="border px-4 py-2 rounded">Email us</a>
+            <div className="flex gap-4">
+              <Link
+                to="/contact"
+                className="bg-rkaccent text-black px-6 py-3 rounded-lg font-semibold hover:bg-rkaccent/90 transition"
+              >
+                Request Demo
+              </Link>
+
+              <a
+                href="mailto:founder@rkbyte.com"
+                className="border border-gray-600 px-6 py-3 rounded-lg hover:border-rkaccent hover:text-rkaccent transition"
+              >
+                Email Us
+              </a>
             </div>
           </div>
+
+          <div className="md:w-1/2 bg-white rounded-xl p-6 shadow-2xl mt-10 md:mt-0">
+            <img
+              src={product.img || "/product-placeholder.png"}
+              alt={product.title}
+              className="w-full object-contain"
+            />
+          </div>
         </div>
+
+        {/* FEATURES SECTION */}
+        {product.features && (
+          <div className="mb-20">
+            <h2 className="text-3xl font-bold text-rkaccent mb-8">
+              Key Features
+            </h2>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              {product.features.map((feature, i) => (
+                <div
+                  key={i}
+                  className="bg-gray-900 p-6 rounded-lg shadow hover:shadow-rkaccent/40 transition"
+                >
+                  <h3 className="text-lg font-semibold">
+                    {feature}
+                  </h3>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* CTA SECTION */}
+        <div className="bg-rkaccent text-black rounded-xl p-10 text-center">
+          <h3 className="text-3xl font-bold mb-4">
+            Ready to Automate Your Operations?
+          </h3>
+          <p className="mb-6 text-lg">
+            Contact RKbyte today to discuss implementation, pricing, and
+            customization.
+          </p>
+
+          <Link
+            to="/contact"
+            className="bg-black text-white px-8 py-3 rounded-lg font-bold hover:bg-gray-800 transition"
+          >
+            Get Started
+          </Link>
+        </div>
+
       </div>
-    </div>
+    </section>
   );
 }

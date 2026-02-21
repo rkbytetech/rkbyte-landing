@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>RKbyte Blog</title>
+    <link>https://www.rkbyte.com</link>
+    <description>Smart Automation insights from RKbyte</description>
+    <language>en-us</language>
+    
+    <item>
+      <title><![CDATA[Smart Irrigation: How IoT is Changing Agriculture]]></title>
+      <link>https://www.rkbyte.com/blog/smart-irrigation-iot</link>
+      <guid>https://www.rkbyte.com/blog/smart-irrigation-iot</guid>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Farmers are adopting IoT-powered irrigation systems to save water and increase yields.]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Why Affordable Automation is the Future of Biotech Labs]]></title>
+      <link>https://www.rkbyte.com/blog/affordable-automation-biotech</link>
+      <guid>https://www.rkbyte.com/blog/affordable-automation-biotech</guid>
+      <pubDate>Sat, 20 Sep 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Biotech labs are moving from manual workflows to smart automation. Here's why affordable solutions matter.]]></description>
+    </item>
+  </channel>
+</rss>
