@@ -24,7 +24,6 @@ export default function Footer() {
           <Link to="/category/biotech" className="hover:text-rkaccent">Biotech</Link>
           <Link to="/category/agriculture" className="hover:text-rkaccent">Agriculture</Link>
           <Link to="/category/industrial" className="hover:text-rkaccent">Industrial</Link>
-          <Link to="/category/home-automation" className="hover:text-rkaccent">Home Automation</Link>
           <Link to="/privacy" className="hover:text-rkaccent">Privacy</Link>
           <Link to="/terms" className="hover:text-rkaccent">Terms</Link>
         </div>

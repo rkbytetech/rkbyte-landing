@@ -26,7 +26,6 @@ create_placeholder("public/hero-automation.png", "Automation Illustration")
 create_placeholder("public/hero-biotech.png", "Biotech")
 create_placeholder("public/hero-agri.png", "Agriculture")
 create_placeholder("public/hero-industrial.png", "Industrial")
-create_placeholder("public/hero-home.png", "Home Automation")
 
 # Products
 create_placeholder("public/products/dims.png", "DIMS")
@@ -35,5 +34,3 @@ create_placeholder("public/products/irrigation.png", "Smart Irrigation")
 create_placeholder("public/products/greenhouse.png", "Greenhouse Monitor")
 create_placeholder("public/products/energy.png", "Energy Monitor")
 create_placeholder("public/products/predictive.png", "Predictive Maintenance")
-create_placeholder("public/products/lighting.png", "Smart Lighting")
-create_placeholder("public/products/hvac.png", "Smart HVAC")

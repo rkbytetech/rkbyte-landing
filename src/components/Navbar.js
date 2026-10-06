@@ -52,9 +52,6 @@ export default function Navbar() {
             <Link to="/category/industrial" className="text-sm text-gray-700 hover:text-rkaccent">
               Industrial
             </Link>
-            <Link to="/category/home-automation" className="text-sm text-gray-700 hover:text-rkaccent">
-              HomeAuto
-            </Link>
             <Link
               to="/about"
               className="text-sm bg-rkaccent text-black px-4 py-2 rounded shadow-sm hover:shadow-md transition"
@@ -118,9 +115,6 @@ export default function Navbar() {
             </Link>
             <Link to="/category/industrial" onClick={() => setOpen(false)} className="block py-2 text-gray-700">
               Industrial
-            </Link>
-            <Link to="/category/home-automation" onClick={() => setOpen(false)} className="block py-2 text-gray-700">
-              Home Automation
             </Link>
             <Link
               to="/about"
