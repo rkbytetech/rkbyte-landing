@@ -223,34 +223,564 @@
       ]
     },
     {
-      "slug": "smart-irrigation",
-      "category": "agriculture",
-      "title": "Smart Irrigation Controller",
-      "short": "Soil-moisture-based irrigation with analytics.",
-      "features": ["Soil sensors", "Auto-valves", "Scheduling"],
-      "img": "/products/irrigation.png"
+      "slug": "automated-laminar-air-flow",
+      "category": "biotech",
+      "title": "Automated Laminar Air Flow",
+      "short": "Smart laminar airflow control with automated UV, environmental monitoring and real-time safety status.",
+      "img": "/products/laminar-air-flow.png",
+      "overview": "The RKbyte Automated Laminar Air Flow system combines controlled laboratory airflow with intelligent monitoring and automation. It is designed to assist laboratory workflows by providing automated control of connected equipment while monitoring important environmental and operating parameters through a centralized interface.",
+      "features": [
+        {
+          "title": "Automated UV Control",
+          "description": "Automatically control the UV sterilization cycle according to configured operating schedules and safety conditions."
+        },
+        {
+          "title": "Environmental Monitoring",
+          "description": "Monitor temperature, humidity and selected air-quality parameters to provide greater visibility into the working environment."
+        },
+        {
+          "title": "Air Quality Monitoring",
+          "description": "Integrate air-quality sensing to monitor changes in the surrounding laboratory environment."
+        },
+        {
+          "title": "Smart Equipment Control",
+          "description": "Control connected components such as lighting, UV and other electrical equipment through the automation controller."
+        },
+        {
+          "title": "Real-Time Status",
+          "description": "View operating conditions and connected equipment status through a centralized monitoring interface."
+        },
+        {
+          "title": "Automated Safety Workflow",
+          "description": "Use programmed operating sequences to reduce unnecessary manual switching during routine laboratory operations."
+        }
+      ],
+      "workflow": [
+        {
+          "title": "Prepare",
+          "description": "The operator prepares the work area and activates the required operating mode."
+        },
+        {
+          "title": "Sterilize",
+          "description": "The automated system controls the UV cycle before the working session according to the configured sequence."
+        },
+        {
+          "title": "Operate",
+          "description": "The airflow cabinet operates while connected environmental sensors continuously provide system information."
+        },
+        {
+          "title": "Monitor",
+          "description": "Operating conditions and equipment status can be viewed through the monitoring interface."
+        }
+      ],
+      "applications": [
+        "Microbiology Laboratories",
+        "Plant Tissue Culture Laboratories",
+        "Biotechnology Laboratories",
+        "Research Laboratories",
+        "Academic Laboratories",
+        "Sample Preparation Areas"
+      ],
+      "technology": [
+        "ESP32-Based Control",
+        "UV Control",
+        "Environmental Sensors",
+        "Air Quality Monitoring",
+        "Relay-Based Automation",
+        "Real-Time Monitoring",
+        "IoT Connectivity",
+        "Centralized Dashboard"
+      ]
     },
     {
-      "slug": "greenhouse",
-      "category": "agriculture",
-      "title": "Greenhouse Environment Monitor",
-      "short": "Monitor humidity, temperature and light levels.",
-      "img": "/products/greenhouse.png"
+      "slug": "iot-environment-monitoring",
+      "category": "biotech",
+      "title": "IoT Environment Monitoring System",
+      "short": "Real-time laboratory environment monitoring with connected sensors, alerts and centralized data visualization.",
+      "img": "/products/environment-monitoring.png",
+      "overview": "The RKbyte IoT Environment Monitoring System provides continuous monitoring of important environmental conditions across laboratories, research facilities and controlled spaces. Connected sensors collect real-time data and provide centralized visibility, helping users identify abnormal conditions quickly and maintain better environmental awareness.",
+      "features": [
+        {
+          "title": "Multi-Parameter Monitoring",
+          "description": "Monitor parameters such as temperature, humidity, CO₂ and air quality through a connected sensor network."
+        },
+        {
+          "title": "Real-Time Dashboard",
+          "description": "View current environmental conditions through a centralized digital dashboard."
+        },
+        {
+          "title": "Threshold Alerts",
+          "description": "Configure operating limits and receive alerts when monitored parameters move outside defined ranges."
+        },
+        {
+          "title": "Continuous Data Logging",
+          "description": "Record environmental measurements over time for monitoring, analysis and operational review."
+        },
+        {
+          "title": "Remote Monitoring",
+          "description": "Access environmental information remotely through an IoT-connected monitoring interface."
+        },
+        {
+          "title": "Expandable Sensor Network",
+          "description": "Add additional sensors and monitoring points as laboratory or facility requirements grow."
+        }
+      ],
+      "workflow": [
+        {
+          "title": "Sense",
+          "description": "Connected sensors continuously measure selected environmental parameters."
+        },
+        {
+          "title": "Connect",
+          "description": "Sensor data is transmitted to the central monitoring system through an IoT network."
+        },
+        {
+          "title": "Analyze",
+          "description": "The dashboard displays current conditions and recorded environmental data."
+        },
+        {
+          "title": "Alert",
+          "description": "The system provides notifications when monitored conditions exceed configured limits."
+        }
+      ],
+      "applications": [
+        "Research Laboratories",
+        "Biotechnology Facilities",
+        "Pharmaceutical Facilities",
+        "Plant Tissue Culture Laboratories",
+        "Storage Areas",
+        "Controlled Environment Rooms"
+      ],
+        "technology": [
+        "ESP32-Based IoT",
+        "Temperature Sensors",
+        "Humidity Sensors",
+        "CO₂ Monitoring",
+        "Air Quality Sensors",
+        "Cloud Dashboard",
+        "Data Logging",
+        "Automated Alerts"
+      ]
     },
     {
-      "slug": "energy-monitor",
-      "category": "industrial",
-      "title": "Energy Monitoring System",
-      "short": "Factory energy dashboards and alerts.",
-      "features": ["Real-time meters", "Reports", "Alerts"],
-      "img": "/products/energy.png"
+  "slug": "smart-irrigation",
+  "category": "agriculture",
+  "title": "Smart Irrigation Controller",
+  "short": "IoT-enabled irrigation automation using real-time soil moisture monitoring, scheduling and intelligent pump control.",
+  "img": "/products/irrigation.png",
+  "overview": "The RKbyte Smart Irrigation Controller automates irrigation based on real-time field conditions and configurable schedules. By combining soil moisture sensing with automated pump and valve control, the system helps deliver water when it is needed while providing farmers with greater visibility and control over irrigation operations.",
+  "features": [
+    {
+      "title": "Soil Moisture Monitoring",
+      "description": "Continuously monitor soil moisture levels to understand when irrigation is required."
     },
     {
-      "slug": "predictive-maintenance",
-      "category": "industrial",
-      "title": "Predictive Maintenance System",
-      "short": "Sensor-driven maintenance for motors and pumps.",
-      "img": "/products/predictive.png"
+      "title": "Automatic Irrigation",
+      "description": "Automatically activate connected pumps or valves when configured moisture conditions are reached."
+    },
+    {
+      "title": "Irrigation Scheduling",
+      "description": "Create scheduled irrigation cycles for different crops, fields or growing zones."
+    },
+    {
+      "title": "Multi-Zone Control",
+      "description": "Manage irrigation across multiple cultivation zones with independent control."
+    },
+    {
+      "title": "Remote Monitoring",
+      "description": "View irrigation status and sensor information through a connected monitoring interface."
+    },
+    {
+      "title": "Smart Alerts",
+      "description": "Receive notifications for low soil moisture, irrigation events and selected system conditions."
     }
+  ],
+  "workflow": [
+    {
+      "title": "Sense",
+      "description": "Soil sensors continuously measure moisture conditions across the selected cultivation zones."
+    },
+    {
+      "title": "Analyze",
+      "description": "The controller evaluates sensor readings against configured irrigation thresholds and schedules."
+    },
+    {
+      "title": "Irrigate",
+      "description": "Connected pumps or valves are automatically activated when irrigation is required."
+    },
+    {
+      "title": "Monitor",
+      "description": "Farmers can view irrigation activity, sensor readings and system status through the monitoring interface."
+    }
+  ],
+  "applications": [
+    "Agricultural Farms",
+    "Greenhouses",
+    "Nurseries",
+    "Kitchen Gardens",
+    "Drip Irrigation Systems",
+    "Protected Cultivation"
+  ],
+  "technology": [
+    "ESP32-Based IoT",
+    "Soil Moisture Sensors",
+    "Automated Pump Control",
+    "Solenoid Valve Control",
+    "IoT Connectivity",
+    "Remote Monitoring",
+    "Automated Scheduling",
+    "Smart Alerts"
+  ]
+},
+    {
+  "slug": "greenhouse",
+  "category": "agriculture",
+  "title": "Greenhouse Environment Monitor",
+  "short": "Real-time greenhouse monitoring for temperature, humidity, light and environmental conditions.",
+  "img": "/products/greenhouse.png",
+  "overview": "The RKbyte Greenhouse Environment Monitor provides continuous visibility into the environmental conditions inside protected cultivation spaces. Connected sensors collect real-time data and present it through a centralized dashboard, helping growers understand changing conditions and respond quickly when parameters move outside desired ranges.",
+  "features": [
+    {
+      "title": "Temperature Monitoring",
+      "description": "Continuously monitor greenhouse temperature and identify changes that may affect crop growth."
+    },
+    {
+      "title": "Humidity Monitoring",
+      "description": "Track relative humidity levels to provide better visibility into greenhouse growing conditions."
+    },
+    {
+      "title": "Light Monitoring",
+      "description": "Monitor available light intensity to understand the lighting conditions experienced by crops."
+    },
+    {
+      "title": "Environmental Dashboard",
+      "description": "View important greenhouse parameters together through a centralized real-time dashboard."
+    },
+    {
+      "title": "Threshold Alerts",
+      "description": "Configure operating limits and receive alerts when monitored conditions move outside defined ranges."
+    },
+    {
+      "title": "Historical Data",
+      "description": "Record environmental measurements over time to identify trends and support cultivation decisions."
+    }
+  ],
+  "workflow": [
+    {
+      "title": "Sense",
+      "description": "Sensors continuously collect temperature, humidity, light and other selected environmental measurements."
+    },
+    {
+      "title": "Connect",
+      "description": "Collected sensor data is transmitted to the connected monitoring system."
+    },
+    {
+      "title": "Visualize",
+      "description": "Current readings and environmental trends are displayed through the dashboard."
+    },
+    {
+      "title": "Respond",
+      "description": "Growers can use the monitored information and alerts to respond to changing greenhouse conditions."
+    }
+  ],
+  "applications": [
+    "Commercial Greenhouses",
+    "Plant Nurseries",
+    "Protected Cultivation",
+    "Research Greenhouses",
+    "Hydroponic Growing Systems",
+    "Agricultural Research Facilities"
+  ],
+  "technology": [
+    "ESP32-Based IoT",
+    "Temperature Sensors",
+    "Humidity Sensors",
+    "Light Sensors",
+    "Real-Time Dashboard",
+    "Data Logging",
+    "Threshold Alerts",
+    "IoT Connectivity"
+  ]
+},
+    {
+  "slug": "smart-fertigation",
+  "category": "agriculture",
+  "title": "Smart Fertigation Controller",
+  "short": "Automated irrigation and fertilizer dosing with real-time monitoring and configurable crop schedules.",
+  "img": "/products/fertigation.png",
+  "overview": "The RKbyte Smart Fertigation Controller combines irrigation automation with controlled fertilizer dosing to help deliver water and nutrients according to configured crop requirements. The system integrates sensors, dosing pumps and irrigation control into a connected platform for more consistent and manageable fertigation operations.",
+  "features": [
+    {
+      "title": "Automated Fertilizer Dosing",
+      "description": "Control fertilizer dosing pumps according to configured schedules and fertigation requirements."
+    },
+    {
+      "title": "Irrigation Control",
+      "description": "Coordinate water delivery with fertilizer dosing to automate complete fertigation cycles."
+    },
+    {
+      "title": "pH & EC Monitoring",
+      "description": "Monitor solution parameters such as pH and electrical conductivity to provide greater visibility into nutrient conditions."
+    },
+    {
+      "title": "Crop-Based Scheduling",
+      "description": "Configure irrigation and nutrient delivery schedules according to crop, zone or cultivation requirements."
+    },
+    {
+      "title": "Multi-Zone Management",
+      "description": "Manage fertigation operations across multiple cultivation zones with independent scheduling and control."
+    },
+    {
+      "title": "Remote Monitoring & Alerts",
+      "description": "Monitor system status remotely and receive alerts for selected sensor conditions and operating events."
+    }
+  ],
+  "workflow": [
+    {
+      "title": "Configure",
+      "description": "Set crop, zone, irrigation and nutrient dosing parameters through the control interface."
+    },
+    {
+      "title": "Measure",
+      "description": "Sensors provide information about solution and environmental conditions during operation."
+    },
+    {
+      "title": "Dose",
+      "description": "The controller operates connected dosing pumps to deliver the configured fertilizer solution."
+    },
+    {
+      "title": "Irrigate",
+      "description": "Water and nutrients are delivered to the selected cultivation zones according to the configured cycle."
+    }
+  ],
+  "applications": [
+    "Commercial Agriculture",
+    "Greenhouse Cultivation",
+    "Hydroponic Systems",
+    "Nurseries",
+    "Drip Irrigation Systems",
+    "Protected Cultivation"
+  ],
+  "technology": [
+    "ESP32-Based IoT",
+    "Fertilizer Dosing Pumps",
+    "pH Monitoring",
+    "EC Monitoring",
+    "Automated Irrigation",
+    "Multi-Zone Control",
+    "IoT Dashboard",
+    "Automated Scheduling"
+  ]
+},
+    {
+  "slug": "energy-monitor",
+  "category": "industrial",
+  "title": "Energy Monitoring System",
+  "short": "Real-time industrial energy monitoring with equipment-level insights, consumption tracking and intelligent alerts.",
+  "img": "/products/energy.png",
+  "overview": "The RKbyte Energy Monitoring System provides real-time visibility into electrical energy consumption across machines, equipment and industrial facilities. By collecting electrical parameters and presenting them through a centralized dashboard, the system helps organizations understand consumption patterns, identify abnormal usage and make better energy-management decisions.",
+  "features": [
+    {
+      "title": "Real-Time Energy Monitoring",
+      "description": "Monitor electrical parameters and energy consumption continuously across connected equipment."
+    },
+    {
+      "title": "Equipment-Level Monitoring",
+      "description": "Track energy usage of individual machines, production lines or selected electrical loads."
+    },
+    {
+      "title": "Consumption Analytics",
+      "description": "Analyze historical energy data to identify consumption patterns, peak usage and potential areas for improvement."
+    },
+    {
+      "title": "Power Parameter Monitoring",
+      "description": "Monitor parameters such as voltage, current, power and energy consumption through connected metering systems."
+    },
+    {
+      "title": "Threshold Alerts",
+      "description": "Configure operating limits and receive alerts when selected electrical parameters or consumption levels exceed defined thresholds."
+    },
+    {
+      "title": "Centralized Dashboard",
+      "description": "View energy data from multiple machines or monitoring points through a single digital interface."
+    }
+  ],
+  "workflow": [
+    {
+      "title": "Measure",
+      "description": "Connected electrical meters continuously collect power and energy parameters."
+    },
+    {
+      "title": "Connect",
+      "description": "Measurement data is transmitted to the centralized monitoring platform."
+    },
+    {
+      "title": "Analyze",
+      "description": "The dashboard processes energy data to provide real-time values, trends and consumption insights."
+    },
+    {
+      "title": "Optimize",
+      "description": "Use energy insights and alerts to identify abnormal consumption and improve operational efficiency."
+    }
+  ],
+  "applications": [
+    "Manufacturing Facilities",
+    "Industrial Plants",
+    "Production Lines",
+    "Workshops",
+    "Commercial Facilities",
+    "Research & Laboratory Facilities"
+  ],
+  "technology": [
+    "Industrial Energy Meters",
+    "Current & Voltage Monitoring",
+    "IoT Connectivity",
+    "Real-Time Dashboard",
+    "Data Logging",
+    "Consumption Analytics",
+    "Automated Alerts",
+    "Multi-Equipment Monitoring"
+  ]
+},
+    {
+  "slug": "predictive-maintenance",
+  "category": "industrial",
+  "title": "Predictive Maintenance System",
+  "short": "IoT-based machine health monitoring designed to detect abnormal operating conditions before failures occur.",
+  "img": "/products/predictive.png",
+  "overview": "The RKbyte Predictive Maintenance System monitors connected industrial equipment using machine-condition sensors and real-time data analysis. By tracking parameters such as vibration, temperature and operating conditions, the system helps maintenance teams identify abnormal machine behavior and plan maintenance before unexpected downtime.",
+  "features": [
+    {
+      "title": "Vibration Monitoring",
+      "description": "Monitor machine vibration patterns to identify changes that may indicate developing mechanical issues."
+    },
+    {
+      "title": "Temperature Monitoring",
+      "description": "Track equipment temperature and identify abnormal increases during machine operation."
+    },
+    {
+      "title": "Machine Health Dashboard",
+      "description": "View machine condition, sensor readings and equipment status through a centralized dashboard."
+    },
+    {
+      "title": "Abnormal Condition Detection",
+      "description": "Compare sensor readings against configured operating thresholds to identify unusual machine behavior."
+    },
+    {
+      "title": "Maintenance Alerts",
+      "description": "Receive alerts when monitored machine parameters exceed defined limits or unusual conditions are detected."
+    },
+    {
+      "title": "Historical Condition Data",
+      "description": "Record machine-condition data over time to identify trends and support maintenance planning."
+    }
+  ],
+  "workflow": [
+    {
+      "title": "Sense",
+      "description": "Sensors continuously collect machine-condition parameters such as vibration and temperature."
+    },
+    {
+      "title": "Monitor",
+      "description": "Sensor data is transmitted to the connected monitoring platform during equipment operation."
+    },
+    {
+      "title": "Analyze",
+      "description": "The system evaluates machine-condition data against configured thresholds and historical patterns."
+    },
+    {
+      "title": "Alert",
+      "description": "Maintenance teams receive notifications when abnormal operating conditions are detected."
+    }
+  ],
+  "applications": [
+    "Manufacturing Plants",
+    "Industrial Machinery",
+    "Motors & Pumps",
+    "Production Equipment",
+    "HVAC Systems",
+    "Industrial Workshops"
+  ],
+  "technology": [
+    "Vibration Sensors",
+    "Temperature Sensors",
+    "ESP32-Based IoT",
+    "Machine Condition Monitoring",
+    "Real-Time Dashboard",
+    "Data Logging",
+    "Threshold Analysis",
+    "Automated Alerts"
+  ]
+},
+    {
+  "slug": "industrial-iot-gateway",
+  "category": "industrial",
+  "title": "Industrial IoT Gateway",
+  "short": "A connected industrial gateway for integrating machines, sensors and field devices with centralized monitoring and analytics.",
+  "img": "/products/industrial-iot-gateway.png",
+  "overview": "The RKbyte Industrial IoT Gateway acts as a communication bridge between industrial equipment and connected monitoring platforms. It is designed to collect data from machines, sensors and field devices, process the information and transmit it to centralized dashboards for real-time visibility and analysis.",
+  "features": [
+    {
+      "title": "Multi-Device Connectivity",
+      "description": "Connect industrial sensors, meters, machines and other compatible field devices through a centralized gateway."
+    },
+    {
+      "title": "Industrial Protocol Integration",
+      "description": "Support integration with compatible industrial communication interfaces and protocols for connecting existing equipment."
+    },
+    {
+      "title": "Real-Time Data Collection",
+      "description": "Collect operating and sensor data from connected equipment for continuous monitoring."
+    },
+    {
+      "title": "Edge Data Processing",
+      "description": "Process selected machine and sensor data at the gateway before transmitting relevant information to the monitoring platform."
+    },
+    {
+      "title": "Centralized Monitoring",
+      "description": "Send connected equipment data to a unified dashboard for real-time visualization and analysis."
+    },
+    {
+      "title": "Scalable Architecture",
+      "description": "Expand the connected device network as additional machines, sensors and monitoring points are added."
+    }
+  ],
+  "workflow": [
+    {
+      "title": "Connect",
+      "description": "Connect compatible machines, sensors, meters and field devices to the gateway."
+    },
+    {
+      "title": "Collect",
+      "description": "The gateway gathers operating and sensor data from connected equipment."
+    },
+    {
+      "title": "Process",
+      "description": "Relevant data is processed and organized for communication with the monitoring platform."
+    },
+    {
+      "title": "Visualize",
+      "description": "Connected equipment information is presented through a centralized industrial monitoring dashboard."
+    }
+  ],
+  "applications": [
+    "Manufacturing Facilities",
+    "Industrial Plants",
+    "Production Lines",
+    "Machine Monitoring",
+    "Energy Management",
+    "Process Automation"
+  ],
+  "technology": [
+    "Industrial IoT",
+    "ESP32-Based Connectivity",
+    "Sensor Integration",
+    "Industrial Communication",
+    "Edge Data Processing",
+    "MQTT Connectivity",
+    "Real-Time Monitoring",
+    "Cloud Dashboard"
+  ]
+}
   ]
 }

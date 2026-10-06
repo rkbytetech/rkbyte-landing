@@ -2,22 +2,22 @@ import React from "react";
 
 const featured = [
   {
-    title: "DIMS (Drug Inventory Management)",
-    desc: "Inventory & temp monitoring for labs.",
-    img: "/products/dims.png",
-    link: "/category/biotech/dims",
+    title: "PTC Rack Lighting Automation",
+    desc: "Programmable lighting control for plant tissue culture racks.",
+    img: "/products/ptc-rack-lighting.png",
+    link: "/category/biotech/ptc-rack-lighting",
   },
   {
-    title: "Smart Irrigation Controller",
-    desc: "Water-saving irrigation with analytics.",
-    img: "/products/irrigation.png",
-    link: "/category/agriculture/smart-irrigation",
+    title: "Automated Laminar Air Flow",
+    desc: "Smart airflow control with automated UV and environmental monitoring.",
+    img: "/products/laminar-air-flow.png",
+    link: "/category/biotech/automated-laminar-air-flow",
   },
   {
-    title: "Predictive Maintenance",
-    desc: "Reduce downtime with sensor-driven alerts.",
-    img: "/products/predictive.png",
-    link: "/category/industrial/predictive-maintenance",
+    title: "Smart Fertigation Controller",
+    desc: "Automated irrigation and fertilizer dosing with real-time monitoring.",
+    img: "/products/fertigation.png",
+    link: "/category/agriculture/smart-fertigation",
   },
 ];
 
