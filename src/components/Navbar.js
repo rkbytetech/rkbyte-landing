@@ -34,10 +34,7 @@ export default function Navbar() {
           {/* LEFT: Logo */}
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center gap-3">
-              <img src="/logo.png" alt="RKbyte" className="h-8 w-auto" />
-              <span className="font-semibold text-lg text-gray-900 hidden sm:inline">
-                RKbyte
-              </span>
+              <img src="/newlogo.png" alt="RKbyte Automation" className="h-10 w-auto object-contain"/>
             </Link>
           </div>
 
