@@ -24,16 +24,203 @@
       "slug": "dims",
       "category": "biotech",
       "title": "Drug Inventory Management System (DIMS)",
-      "short": "Track inventory, temps, and expiries with IoT-backed alerts.",
-      "features": ["IoT temp", "Barcode", "Stock alerts"],
-      "img": "/products/dims.png"
+      "short": "IoT-powered inventory management for smarter, safer laboratory storage.",
+      "img": "/products/dims.png",
+
+      "overview": "DIMS is an IoT-enabled inventory management solution designed for laboratories, research facilities and pharmaceutical environments. It helps teams monitor inventory, storage conditions, stock levels and expiry dates through a centralized digital system, reducing manual tracking and improving operational visibility.",
+
+      "features": [
+       {
+          "title": "IoT Temperature Monitoring",
+          "description": "Continuously monitor storage temperature and receive alerts when environmental conditions move outside defined limits."
+       },
+       {
+         "title": "Barcode-Based Tracking",
+         "description": "Identify and track medicines, reagents and laboratory inventory using fast barcode-based inventory management."
+       },
+       {
+         "title": "Smart Stock Alerts",
+         "description": "Receive alerts when inventory levels fall below predefined thresholds so critical materials can be replenished on time."
+       },
+       {
+         "title": "Expiry Monitoring",
+         "description": "Track expiry dates and identify products approaching expiration to reduce wastage and improve inventory planning."
+       }
+      ],
+
+      "workflow": [
+       {
+          "title": "Register",
+          "description": "Add medicines, reagents and laboratory materials to the digital inventory."
+       },
+       {
+         "title": "Monitor",
+         "description": "Sensors and inventory records continuously provide updated information."
+       },
+       {
+          "title": "Analyze",
+          "description": "View inventory levels, environmental conditions and expiry information through the dashboard."
+       },
+       {
+          "title": "Alert",
+          "description": "Receive timely notifications for low stock, expiry and environmental conditions."
+       }
+      ],
+
+      "applications": [
+       "Research Laboratories",
+       "Pharmaceutical Storage",
+       "Clinical Laboratories",
+       "Biotechnology Facilities",
+       "Academic Laboratories",
+       "Healthcare Facilities"
+      ],
+
+      "technology": [
+       "IoT Sensors",
+       "Barcode Tracking",
+       "Cloud Dashboard",
+       "Real-Time Monitoring",
+       "Automated Alerts"
+      ]
+    },
+    {
+      "slug": "ptc-rack-lighting",
+      "category": "biotech",
+      "title": "PTC Rack Lighting Automation",
+      "short": "Automated lighting control for plant tissue culture racks with programmable photoperiods and centralized control.",
+      "img": "/products/ptc-rack-lighting.png",
+      "overview": "The RKbyte PTC Rack Lighting Automation system provides programmable and reliable lighting control for plant tissue culture racks. It enables scheduled lighting cycles, centralized control and independent management of rack sections, helping maintain consistent photoperiod conditions across tissue culture operations.",
+      "features": [
+      {
+          "title": "Programmable Photoperiod",
+          "description": "Configure automatic lighting schedules to maintain defined light and dark cycles for tissue culture applications."
+      },
+      {
+          "title": "Independent Rack Control",
+          "description": "Control lighting for individual racks or shelf sections according to cultivation requirements."
+      },
+      {
+          "title": "Centralized Control",
+          "description": "Manage multiple rack lighting systems through a single control interface."
+      },
+      {
+          "title": "Automatic Scheduling",
+          "description": "Set daily lighting schedules and automate ON/OFF operation without manual intervention."
+      },
+      {
+          "title": "Manual Override",
+          "description": "Allow operators to manually control lighting when maintenance, inspection or experimental changes are required."
+      },
+      {
+          "title": "Real-Time Status",
+          "description": "Monitor the operating status of connected lighting zones through the control system."
+      }
+    ],
+      "workflow": [
+      {
+          "title": "Configure",
+          "description": "Set the required lighting schedule and assign individual rack or shelf zones."
+      },
+      {
+          "title": "Schedule",
+          "description": "The controller automatically manages the programmed light and dark cycles."
+      },
+      {
+          "title": "Control",
+          "description": "Lighting zones are switched according to the configured schedule."
+      },
+      {
+          "title": "Monitor",
+        "description": "View lighting status and make manual adjustments when required."
+      }
+    ],
+      "applications": [
+          "Plant Tissue Culture Laboratories",
+          "Micropropagation Facilities",
+          "Plant Biotechnology Laboratories",
+          "Research Laboratories",
+          "Plant Growth Rooms",
+          "Academic Biotechnology Facilities"
+      ],
+      "technology": [
+          "ESP32-Based Control",
+          "LED Lighting Control",
+          "Programmable Scheduling",
+          "IoT Connectivity",
+          "Centralized Dashboard",
+          "Multi-Zone Control"
+      ]
     },
     {
       "slug": "photobioreactor",
       "category": "biotech",
       "title": "Automated Photobioreactor",
-      "short": "Control pH, temp, and light for cultures.",
-      "img": "/products/photobioreactor.png"
+      "short": "Automated cultivation control with real-time monitoring of pH, temperature and light intensity.",
+      "img": "/products/photobioreactor.png",
+      "overview": "The RKbyte Automated Photobioreactor is a sensor-driven cultivation system designed for controlled growth of phototrophic cultures. The system integrates real-time environmental monitoring with automated control of key cultivation parameters, helping researchers maintain consistent and repeatable operating conditions.",
+      "features": [
+        {
+          "title": "Real-Time pH Monitoring",
+          "description": "Continuously monitor culture pH and track changes during the cultivation process."
+        },
+        {
+          "title": "Temperature Monitoring",
+          "description": "Monitor culture temperature in real time to maintain suitable conditions throughout cultivation."
+        },
+        {
+          "title": "Automated Dosing",
+          "description": "Control acid, base and water dosing systems to support automated adjustment of cultivation conditions."
+        },
+      {
+          "title": "Programmable Lighting",
+          "description": "Control cultivation lighting to provide consistent illumination for phototrophic cultures."
+      },
+      {
+          "title": "Air Supply Control",
+          "description": "Automate air-pump operation to support controlled aeration during cultivation."
+      },
+      {
+          "title": "Real-Time Dashboard",
+          "description": "View important cultivation parameters and operating states through a centralized monitoring interface."
+      }
+      ],
+      "workflow": [
+      {
+          "title": "Inoculate",
+          "description": "Introduce the selected culture into the photobioreactor vessel and begin the cultivation cycle."
+      },
+      {
+          "title": "Monitor",
+          "description": "Sensors continuously measure key parameters such as pH and temperature."
+      },
+      {
+          "title": "Control",
+          "description": "The control system operates dosing, aeration, lighting and other connected equipment according to the configured conditions."
+      },
+      {
+          "title": "Analyze",
+          "description": "Monitor cultivation parameters and system status through the real-time dashboard."
+      }
+      ],
+      "applications": [
+        "Algae Cultivation",
+        "Microalgae Research",
+        "Phototrophic Culture Studies",
+        "Biotechnology Research",
+        "Academic Laboratories",
+        "Bioprocess Development"
+      ],
+      "technology": [
+        "ESP32-Based Control",
+        "pH Sensor",
+        "Temperature Sensor",
+        "Light Monitoring",
+        "Automated Pump Control",
+        "LED Illumination",
+        "IoT Dashboard",
+        "Real-Time Monitoring"
+      ]
     },
     {
       "slug": "smart-irrigation",
