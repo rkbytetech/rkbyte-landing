@@ -4,9 +4,9 @@ export default function CTASection() {
   return (
     <section className="bg-gray-900 text-white py-16">
       <div className="container mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold">Let’s build your automation solution</h2>
+        <h2 className="text-3xl font-bold">Let’s build something smarter</h2>
         <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
-          From labs to industries, RKbyte delivers automation systems that drive real impact.
+          From laboratories to farms and beyond, RKbyte builds connected automation systems designed for real-world impact
         </p>
         <a
           href="/contact"

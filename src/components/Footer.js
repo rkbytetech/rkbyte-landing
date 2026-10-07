@@ -23,7 +23,8 @@ export default function Footer() {
           <Link to="/" className="hover:text-rkaccent">Home</Link>
           <Link to="/category/biotech" className="hover:text-rkaccent">Biotech</Link>
           <Link to="/category/agriculture" className="hover:text-rkaccent">Agriculture</Link>
-          <Link to="/category/industrial" className="hover:text-rkaccent">Industrial</Link>
+          <Link to="/category/aquaculture" className="hover:text-rkaccent">Aquaculture</Link>
+          <Link to="/category/microgreens" className="hover:text-rkaccent">Microgreens</Link>
           <Link to="/privacy" className="hover:text-rkaccent">Privacy</Link>
           <Link to="/terms" className="hover:text-rkaccent">Terms</Link>
         </div>

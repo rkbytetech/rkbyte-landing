@@ -9,13 +9,11 @@ export default function HeroSection() {
         {/* LEFT: Text Content */}
         <div className="md:w-1/2 text-center md:text-left">
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
-            Smart Automation for <span className="text-rkaccent">Biotech, Agri & Industry</span>
+            Smart Automation for <span className="text-rkaccent">Biotechnology</span>
           </h1>
 
           <p className="mt-6 text-gray-300 text-lg max-w-xl mx-auto md:mx-0">
-            RKbyte builds scalable IoT-enabled automation systems to boost
-            efficiency, safety, and innovation across labs, industries, and
-            farms.
+            RKbyte builds scalable IoT-enabled automation systems that improve efficiency, simplify operations, and accelerate innovation across diverse biotech industries
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">

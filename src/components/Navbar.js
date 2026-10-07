@@ -46,8 +46,11 @@ export default function Navbar() {
             <Link to="/category/agriculture" className="text-sm text-gray-700 hover:text-rkaccent">
               Agriculture
             </Link>
-            <Link to="/category/industrial" className="text-sm text-gray-700 hover:text-rkaccent">
-              Industrial
+            <Link to="/category/aquaculture" className="text-sm text-gray-700 hover:text-rkaccent">
+              Aquaculture
+            </Link>
+            <Link to="/category/microgreens" className="text-sm text-gray-700 hover:text-rkaccent">
+              Microgreens
             </Link>
             <Link
               to="/about"
@@ -110,8 +113,11 @@ export default function Navbar() {
             <Link to="/category/agriculture" onClick={() => setOpen(false)} className="block py-2 text-gray-700">
               Agriculture
             </Link>
-            <Link to="/category/industrial" onClick={() => setOpen(false)} className="block py-2 text-gray-700">
-              Industrial
+            <Link to="/category/aquaculture" onClick={() => setOpen(false)} className="block py-2 text-gray-700">
+              Aquaculture
+            </Link>
+            <Link to="/category/microgreens" onClick={() => setOpen(false)} className="block py-2 text-gray-700">
+              Microgreens
             </Link>
             <Link
               to="/about"

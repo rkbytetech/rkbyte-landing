@@ -13,10 +13,16 @@
       "heroImg": "/hero-agri.png"
     },
     {
-      "slug": "industrial",
-      "title": "Industrial",
+      "slug": "aquaculture",
+      "title": "Aquaculture",
       "description": "Connected automation for efficient, reliable processes",
-      "heroImg": "/hero-industrial.png"
+      "heroImg": "/hero-aquaculture.png"
+    },
+    {
+      "slug": "microgreens",
+      "title": "Microgreens",
+      "description": "Smart growing systems for controlled cultivation, lighting, irrigation and environmental monitoring.",
+      "heroImg": "/hero-microgreens.png"
     }
   ],
   "products": [
@@ -572,214 +578,635 @@
     "Automated Scheduling"
   ]
 },
-    {
-  "slug": "energy-monitor",
-  "category": "industrial",
-  "title": "Energy Monitoring System",
-  "short": "Real-time industrial energy monitoring with equipment-level insights, consumption tracking and intelligent alerts.",
-  "img": "/products/energy.png",
-  "overview": "The RKbyte Energy Monitoring System provides real-time visibility into electrical energy consumption across machines, equipment and industrial facilities. By collecting electrical parameters and presenting them through a centralized dashboard, the system helps organizations understand consumption patterns, identify abnormal usage and make better energy-management decisions.",
+{
+  "slug": "aquaculture-water-quality-monitor",
+  "category": "aquaculture",
+  "title": "Smart Aquaculture Water Quality Monitor",
+  "short": "Real-time monitoring of critical aquaculture water parameters with connected sensors, alerts and centralized data visualization.",
+  "img": "/products/aquaculture-water-quality.png",
+  "overview": "The RKbyte Smart Aquaculture Water Quality Monitor is designed to provide continuous visibility into important water conditions across aquaculture tanks and ponds. Connected sensors collect real-time measurements and transmit them to a centralized monitoring system, helping operators identify changing conditions and respond before they affect the culture environment.",
   "features": [
-    {
-      "title": "Real-Time Energy Monitoring",
-      "description": "Monitor electrical parameters and energy consumption continuously across connected equipment."
-    },
-    {
-      "title": "Equipment-Level Monitoring",
-      "description": "Track energy usage of individual machines, production lines or selected electrical loads."
-    },
-    {
-      "title": "Consumption Analytics",
-      "description": "Analyze historical energy data to identify consumption patterns, peak usage and potential areas for improvement."
-    },
-    {
-      "title": "Power Parameter Monitoring",
-      "description": "Monitor parameters such as voltage, current, power and energy consumption through connected metering systems."
-    },
-    {
-      "title": "Threshold Alerts",
-      "description": "Configure operating limits and receive alerts when selected electrical parameters or consumption levels exceed defined thresholds."
-    },
-    {
-      "title": "Centralized Dashboard",
-      "description": "View energy data from multiple machines or monitoring points through a single digital interface."
-    }
-  ],
-  "workflow": [
-    {
-      "title": "Measure",
-      "description": "Connected electrical meters continuously collect power and energy parameters."
-    },
-    {
-      "title": "Connect",
-      "description": "Measurement data is transmitted to the centralized monitoring platform."
-    },
-    {
-      "title": "Analyze",
-      "description": "The dashboard processes energy data to provide real-time values, trends and consumption insights."
-    },
-    {
-      "title": "Optimize",
-      "description": "Use energy insights and alerts to identify abnormal consumption and improve operational efficiency."
-    }
-  ],
-  "applications": [
-    "Manufacturing Facilities",
-    "Industrial Plants",
-    "Production Lines",
-    "Workshops",
-    "Commercial Facilities",
-    "Research & Laboratory Facilities"
-  ],
-  "technology": [
-    "Industrial Energy Meters",
-    "Current & Voltage Monitoring",
-    "IoT Connectivity",
-    "Real-Time Dashboard",
-    "Data Logging",
-    "Consumption Analytics",
-    "Automated Alerts",
-    "Multi-Equipment Monitoring"
-  ]
-},
-    {
-  "slug": "predictive-maintenance",
-  "category": "industrial",
-  "title": "Predictive Maintenance System",
-  "short": "IoT-based machine health monitoring designed to detect abnormal operating conditions before failures occur.",
-  "img": "/products/predictive.png",
-  "overview": "The RKbyte Predictive Maintenance System monitors connected industrial equipment using machine-condition sensors and real-time data analysis. By tracking parameters such as vibration, temperature and operating conditions, the system helps maintenance teams identify abnormal machine behavior and plan maintenance before unexpected downtime.",
-  "features": [
-    {
-      "title": "Vibration Monitoring",
-      "description": "Monitor machine vibration patterns to identify changes that may indicate developing mechanical issues."
-    },
     {
       "title": "Temperature Monitoring",
-      "description": "Track equipment temperature and identify abnormal increases during machine operation."
+      "description": "Continuously monitor water temperature to track changes in the culture environment."
     },
     {
-      "title": "Machine Health Dashboard",
-      "description": "View machine condition, sensor readings and equipment status through a centralized dashboard."
+      "title": "pH Monitoring",
+      "description": "Monitor water pH levels and configure operating thresholds for timely alerts."
     },
     {
-      "title": "Abnormal Condition Detection",
-      "description": "Compare sensor readings against configured operating thresholds to identify unusual machine behavior."
+      "title": "Dissolved Oxygen Monitoring",
+      "description": "Monitor dissolved oxygen levels to provide better visibility into water quality and aeration conditions."
     },
     {
-      "title": "Maintenance Alerts",
-      "description": "Receive alerts when monitored machine parameters exceed defined limits or unusual conditions are detected."
+      "title": "Salinity Monitoring",
+      "description": "Track salinity levels for aquaculture systems where salinity is an important operating parameter."
     },
     {
-      "title": "Historical Condition Data",
-      "description": "Record machine-condition data over time to identify trends and support maintenance planning."
+      "title": "Real-Time Dashboard",
+      "description": "View water quality measurements, sensor status and trends through a centralized digital dashboard."
+    },
+    {
+      "title": "Alerts & Data Logging",
+      "description": "Record water quality data over time and receive alerts when selected parameters move outside configured limits."
     }
   ],
   "workflow": [
     {
       "title": "Sense",
-      "description": "Sensors continuously collect machine-condition parameters such as vibration and temperature."
+      "description": "Connected water-quality sensors continuously measure selected parameters."
     },
     {
-      "title": "Monitor",
-      "description": "Sensor data is transmitted to the connected monitoring platform during equipment operation."
+      "title": "Connect",
+      "description": "Sensor readings are transmitted to the RKbyte monitoring system through an IoT connection."
     },
     {
       "title": "Analyze",
-      "description": "The system evaluates machine-condition data against configured thresholds and historical patterns."
+      "description": "The dashboard presents current readings and historical trends for each monitoring point."
     },
     {
-      "title": "Alert",
-      "description": "Maintenance teams receive notifications when abnormal operating conditions are detected."
+      "title": "Respond",
+      "description": "Operators receive alerts when conditions move outside configured limits and can take appropriate action."
     }
   ],
   "applications": [
-    "Manufacturing Plants",
-    "Industrial Machinery",
-    "Motors & Pumps",
-    "Production Equipment",
-    "HVAC Systems",
-    "Industrial Workshops"
+    "Shrimp Farming",
+    "Fish Farming",
+    "Aquaculture Tanks",
+    "Hatcheries",
+    "Research Aquaculture Facilities",
+    "Recirculating Aquaculture Systems"
   ],
   "technology": [
-    "Vibration Sensors",
-    "Temperature Sensors",
     "ESP32-Based IoT",
-    "Machine Condition Monitoring",
+    "Temperature Sensor",
+    "pH Sensor",
+    "Dissolved Oxygen Sensor",
+    "Salinity Sensor",
     "Real-Time Dashboard",
     "Data Logging",
-    "Threshold Analysis",
     "Automated Alerts"
   ]
 },
-    {
-  "slug": "industrial-iot-gateway",
-  "category": "industrial",
-  "title": "Industrial IoT Gateway",
-  "short": "A connected industrial gateway for integrating machines, sensors and field devices with centralized monitoring and analytics.",
-  "img": "/products/industrial-iot-gateway.png",
-  "overview": "The RKbyte Industrial IoT Gateway acts as a communication bridge between industrial equipment and connected monitoring platforms. It is designed to collect data from machines, sensors and field devices, process the information and transmit it to centralized dashboards for real-time visibility and analysis.",
+{
+  "slug": "automated-aquaculture-feeder",
+  "category": "aquaculture",
+  "title": "Automated Aquaculture Feeder",
+  "short": "Programmable aquaculture feeding automation with scheduled dispensing, feed control and remote monitoring.",
+  "img": "/products/aquaculture-feeder.png",
+  "overview": "The RKbyte Automated Aquaculture Feeder is designed to automate routine feeding operations in aquaculture systems. It provides programmable feeding schedules, controlled feed dispensing and operational monitoring, helping reduce manual feeding effort and improve consistency across feeding cycles.",
   "features": [
     {
-      "title": "Multi-Device Connectivity",
-      "description": "Connect industrial sensors, meters, machines and other compatible field devices through a centralized gateway."
+      "title": "Programmable Feeding",
+      "description": "Configure feeding schedules according to the required number of feeding cycles and operating times."
     },
     {
-      "title": "Industrial Protocol Integration",
-      "description": "Support integration with compatible industrial communication interfaces and protocols for connecting existing equipment."
+      "title": "Controlled Feed Dispensing",
+      "description": "Control feed dispensing according to configured feeding duration or quantity parameters."
     },
     {
-      "title": "Real-Time Data Collection",
-      "description": "Collect operating and sensor data from connected equipment for continuous monitoring."
+      "title": "Multiple Feeding Cycles",
+      "description": "Schedule multiple feeding events throughout the day for consistent feeding operations."
     },
     {
-      "title": "Edge Data Processing",
-      "description": "Process selected machine and sensor data at the gateway before transmitting relevant information to the monitoring platform."
+      "title": "Feed Level Monitoring",
+      "description": "Monitor the available feed level and receive alerts when the hopper requires replenishment."
     },
     {
-      "title": "Centralized Monitoring",
-      "description": "Send connected equipment data to a unified dashboard for real-time visualization and analysis."
+      "title": "Remote Control",
+      "description": "View feeding status and initiate or adjust feeding operations through a connected control interface."
     },
     {
-      "title": "Scalable Architecture",
-      "description": "Expand the connected device network as additional machines, sensors and monitoring points are added."
+      "title": "Feeding Data Logging",
+      "description": "Record feeding events and schedules to provide a historical view of feeding operations."
+    }
+  ],
+  "workflow": [
+    {
+      "title": "Configure",
+      "description": "Set feeding times, feeding cycles and dispensing parameters through the control interface."
+    },
+    {
+      "title": "Schedule",
+      "description": "The controller stores the configured feeding schedule and prepares the system for each feeding cycle."
+    },
+    {
+      "title": "Dispense",
+      "description": "The feeder operates the dispensing mechanism according to the configured parameters."
+    },
+    {
+      "title": "Monitor",
+      "description": "Feeding activity and system status are recorded and made available through the monitoring interface."
+    }
+  ],
+  "applications": [
+    "Shrimp Farming",
+    "Fish Farming",
+    "Aquaculture Tanks",
+    "Hatcheries",
+    "Nursery Systems",
+    "Research Aquaculture Facilities"
+  ],
+  "technology": [
+    "ESP32-Based Control",
+    "Automated Dispensing",
+    "Programmable Scheduling",
+    "Motorized Feed Mechanism",
+    "IoT Connectivity",
+    "Remote Monitoring",
+    "Feed Level Sensor",
+    "Data Logging"
+  ]
+},
+{
+  "slug": "smart-aeration-controller",
+  "category": "aquaculture",
+  "title": "Smart Aeration Controller",
+  "short": "Intelligent aeration control with scheduled operation, water-condition monitoring and automated aerator management.",
+  "img": "/products/smart-aeration.png",
+  "overview": "The RKbyte Smart Aeration Controller automates aerator operation in aquaculture ponds and tanks using configurable schedules and monitored water conditions. It provides centralized control of connected aerators while giving operators better visibility into aeration activity and system status.",
+  "features": [
+    {
+      "title": "Automated Aerator Control",
+      "description": "Automatically control connected aerators according to configured schedules and operating conditions."
+    },
+    {
+      "title": "Dissolved Oxygen Monitoring",
+      "description": "Integrate dissolved oxygen measurements to provide greater visibility into water conditions affecting aeration requirements."
+    },
+    {
+      "title": "Scheduled Operation",
+      "description": "Configure aeration schedules for different periods of the day and operating requirements."
+    },
+    {
+      "title": "Multi-Aerator Control",
+      "description": "Manage multiple aerators or aeration zones through a centralized controller."
+    },
+    {
+      "title": "Remote Monitoring",
+      "description": "View aerator status, operating schedules and selected water parameters through a connected interface."
+    },
+    {
+      "title": "Alerts & Runtime Tracking",
+      "description": "Track aerator operation and receive alerts for selected system conditions or abnormal operating states."
+    }
+  ],
+  "workflow": [
+    {
+      "title": "Monitor",
+      "description": "The system receives water-condition information and monitors the operating state of connected aerators."
+    },
+    {
+      "title": "Analyze",
+      "description": "Configured schedules and operating thresholds are evaluated by the controller."
+    },
+    {
+      "title": "Control",
+      "description": "The controller automatically switches connected aerators according to the configured operating logic."
+    },
+    {
+      "title": "Track",
+      "description": "Aeration activity, system status and selected water parameters are recorded for monitoring and analysis."
+    }
+  ],
+  "applications": [
+    "Shrimp Farming",
+    "Fish Farming",
+    "Aquaculture Ponds",
+    "Aquaculture Tanks",
+    "Hatcheries",
+    "Recirculating Aquaculture Systems"
+  ],
+  "technology": [
+    "ESP32-Based Control",
+    "Dissolved Oxygen Monitoring",
+    "Aerator Control",
+    "Relay/Contactor Control",
+    "IoT Connectivity",
+    "Remote Monitoring",
+    "Automated Scheduling",
+    "Runtime Tracking"
+  ]
+},
+{
+  "slug": "aquaculture-iot-monitoring",
+  "category": "aquaculture",
+  "title": "Aquaculture IoT Monitoring System",
+  "short": "Connected aquaculture monitoring and control for water quality, feeding, aeration and farm operations.",
+  "img": "/products/aquaculture-iot-monitoring.png",
+  "overview": "The RKbyte Aquaculture IoT Monitoring System provides a centralized platform for monitoring and managing connected aquaculture operations. It brings water-quality data, feeding activity, aeration status and system alerts together in one connected interface, giving operators a clearer view of pond and tank conditions.",
+  "features": [
+    {
+      "title": "Centralized Farm Dashboard",
+      "description": "View water quality, equipment status, feeding activity and alerts from a single monitoring interface."
+    },
+    {
+      "title": "Water Quality Monitoring",
+      "description": "Monitor parameters such as temperature, pH, dissolved oxygen and salinity across connected ponds or tanks."
+    },
+    {
+      "title": "Feeding Monitoring",
+      "description": "Track automated feeding schedules, feeding events and connected feeder status."
+    },
+    {
+      "title": "Aeration Monitoring",
+      "description": "Monitor connected aerators, operating schedules and aeration activity across different zones."
+    },
+    {
+      "title": "Multi-Pond Management",
+      "description": "Manage monitoring points across multiple ponds, tanks or aquaculture facilities through a centralized platform."
+    },
+    {
+      "title": "Alerts & Data Analytics",
+      "description": "Receive alerts for selected conditions and analyze historical data to understand changes in aquaculture operations."
     }
   ],
   "workflow": [
     {
       "title": "Connect",
-      "description": "Connect compatible machines, sensors, meters and field devices to the gateway."
+      "description": "Connect water-quality sensors, feeders, aerators and other compatible equipment to the RKbyte system."
     },
     {
-      "title": "Collect",
-      "description": "The gateway gathers operating and sensor data from connected equipment."
+      "title": "Monitor",
+      "description": "Collect real-time information from ponds, tanks and connected equipment."
     },
     {
-      "title": "Process",
-      "description": "Relevant data is processed and organized for communication with the monitoring platform."
+      "title": "Analyze",
+      "description": "View current conditions, historical trends and equipment activity through the centralized dashboard."
     },
     {
-      "title": "Visualize",
-      "description": "Connected equipment information is presented through a centralized industrial monitoring dashboard."
+      "title": "Manage",
+      "description": "Use alerts, schedules and connected controls to support day-to-day aquaculture operations."
     }
   ],
   "applications": [
-    "Manufacturing Facilities",
-    "Industrial Plants",
-    "Production Lines",
-    "Machine Monitoring",
-    "Energy Management",
-    "Process Automation"
+    "Shrimp Farms",
+    "Fish Farms",
+    "Aquaculture Hatcheries",
+    "Nursery Systems",
+    "Aquaculture Research Facilities",
+    "Recirculating Aquaculture Systems"
   ],
   "technology": [
-    "Industrial IoT",
-    "ESP32-Based Connectivity",
-    "Sensor Integration",
-    "Industrial Communication",
-    "Edge Data Processing",
+    "IoT Sensors",
+    "ESP32-Based Controllers",
+    "Water Quality Monitoring",
+    "Automated Feeding",
+    "Aeration Control",
     "MQTT Connectivity",
-    "Real-Time Monitoring",
-    "Cloud Dashboard"
+    "Cloud Dashboard",
+    "Data Logging",
+    "Real-Time Alerts"
+  ]
+},
+{
+  "slug": "smart-microgreen-growing-rack",
+  "category": "microgreens",
+  "title": "Smart Microgreen Growing Rack",
+  "short": "An automated indoor growing system with programmable lighting, irrigation and environmental monitoring for microgreen cultivation.",
+  "img": "/products/microgreen-rack.png",
+  "overview": "The RKbyte Smart Microgreen Growing Rack is a controlled cultivation system designed to automate key conditions required for microgreen production. It combines programmable LED lighting, automated irrigation and environmental monitoring into a connected rack system, providing consistent growing conditions across multiple cultivation shelves.",
+  "features": [
+    {
+      "title": "Programmable LED Lighting",
+      "description": "Configure lighting schedules and photoperiods for different stages of microgreen cultivation."
+    },
+    {
+      "title": "Automated Irrigation",
+      "description": "Control watering cycles through connected pumps or irrigation systems according to configured schedules."
+    },
+    {
+      "title": "Environmental Monitoring",
+      "description": "Monitor temperature, humidity and other selected environmental parameters across the growing rack."
+    },
+    {
+      "title": "Multi-Shelf Control",
+      "description": "Manage lighting and irrigation across multiple cultivation shelves within the rack."
+    },
+    {
+      "title": "Growth-Cycle Scheduling",
+      "description": "Configure schedules according to the cultivation cycle and automate routine growing operations."
+    },
+    {
+      "title": "IoT Monitoring",
+      "description": "View rack conditions, system status and cultivation activity through a connected monitoring interface."
+    }
+  ],
+  "workflow": [
+    {
+      "title": "Seed",
+      "description": "Prepare and place seeded growing trays onto the cultivation shelves."
+    },
+    {
+      "title": "Configure",
+      "description": "Set the lighting, irrigation and environmental monitoring parameters for the growing cycle."
+    },
+    {
+      "title": "Grow",
+      "description": "The system automatically manages programmed lighting and irrigation throughout the cultivation cycle."
+    },
+    {
+      "title": "Monitor",
+      "description": "Track environmental conditions and system status through the connected dashboard."
+    }
+  ],
+  "applications": [
+    "Commercial Microgreen Production",
+    "Indoor Farming",
+    "Urban Agriculture",
+    "Restaurants & Culinary Farms",
+    "Agricultural Research",
+    "Controlled Environment Agriculture"
+  ],
+  "technology": [
+    "ESP32-Based Control",
+    "LED Grow Lighting",
+    "Automated Irrigation",
+    "Temperature Monitoring",
+    "Humidity Monitoring",
+    "IoT Connectivity",
+    "Programmable Scheduling",
+    "Multi-Shelf Control"
+  ]
+},
+{
+  "slug": "microgreen-environment-monitor",
+  "category": "microgreens",
+  "title": "Microgreen Environment Monitor",
+  "short": "Real-time monitoring of temperature, humidity, light and growing conditions for controlled microgreen cultivation.",
+  "img": "/products/microgreen-environment-monitor.png",
+  "overview": "The RKbyte Microgreen Environment Monitor provides continuous visibility into the growing conditions inside indoor farms, racks and controlled cultivation spaces. Connected sensors collect environmental data and present it through a centralized dashboard, helping growers maintain consistent conditions throughout the cultivation cycle.",
+  "features": [
+    {
+      "title": "Temperature Monitoring",
+      "description": "Continuously monitor growing-area temperature and identify changes that may affect crop development."
+    },
+    {
+      "title": "Humidity Monitoring",
+      "description": "Track relative humidity to maintain better visibility of moisture conditions around the growing environment."
+    },
+    {
+      "title": "Light Monitoring",
+      "description": "Monitor light intensity to understand the illumination available to microgreen crops."
+    },
+    {
+      "title": "CO₂ Monitoring",
+      "description": "Monitor carbon dioxide levels in controlled growing environments where CO₂ information is required."
+    },
+    {
+      "title": "Real-Time Dashboard",
+      "description": "View current environmental readings and system status through a centralized digital interface."
+    },
+    {
+      "title": "Alerts & Data Logging",
+      "description": "Record environmental conditions over time and receive alerts when selected parameters exceed configured limits."
+    }
+  ],
+  "workflow": [
+    {
+      "title": "Sense",
+      "description": "Connected sensors continuously measure environmental conditions around the growing area."
+    },
+    {
+      "title": "Connect",
+      "description": "Sensor readings are transmitted to the RKbyte monitoring platform through an IoT connection."
+    },
+    {
+      "title": "Visualize",
+      "description": "Current readings and historical trends are displayed through the dashboard."
+    },
+    {
+      "title": "Optimize",
+      "description": "Use environmental insights and alerts to adjust growing conditions and improve cultivation consistency."
+    }
+  ],
+  "applications": [
+    "Microgreen Farms",
+    "Indoor Farms",
+    "Vertical Farming Systems",
+    "Smart Growing Racks",
+    "Agricultural Research",
+    "Controlled Environment Agriculture"
+  ],
+  "technology": [
+    "ESP32-Based IoT",
+    "Temperature Sensors",
+    "Humidity Sensors",
+    "Light Sensors",
+    "CO₂ Monitoring",
+    "Real-Time Dashboard",
+    "Data Logging",
+    "Automated Alerts"
+  ]
+},
+{
+  "slug": "automated-microgreen-lighting",
+  "category": "microgreens",
+  "title": "Automated Microgreen Lighting System",
+  "short": "Programmable LED lighting automation for consistent photoperiods and controlled microgreen cultivation.",
+  "img": "/products/microgreen-lighting.png",
+  "overview": "The RKbyte Automated Microgreen Lighting System provides programmable control of grow lights across indoor cultivation racks and growing spaces. It enables growers to configure lighting schedules and manage multiple lighting zones, helping maintain consistent photoperiods throughout the cultivation cycle.",
+  "features": [
+    {
+      "title": "Programmable Photoperiods",
+      "description": "Configure daily lighting schedules according to the requirements of different microgreen cultivation cycles."
+    },
+    {
+      "title": "Multi-Shelf Lighting Control",
+      "description": "Independently control lighting across multiple shelves or cultivation zones."
+    },
+    {
+      "title": "Automated ON/OFF Control",
+      "description": "Automatically operate connected grow lights according to configured schedules without requiring manual switching."
+    },
+    {
+      "title": "Lighting Intensity Control",
+      "description": "Support compatible lighting systems with configurable intensity levels for controlled growing environments."
+    },
+    {
+      "title": "Remote Monitoring",
+      "description": "View lighting status and active schedules through a connected monitoring interface."
+    },
+    {
+      "title": "Lighting Data Logging",
+      "description": "Record lighting schedules and operating activity to provide better visibility into cultivation cycles."
+    }
+  ],
+  "workflow": [
+    {
+      "title": "Configure",
+      "description": "Set lighting schedules, operating periods and supported intensity parameters."
+    },
+    {
+      "title": "Schedule",
+      "description": "The controller stores the configured photoperiod and prepares each lighting zone for operation."
+    },
+    {
+      "title": "Automate",
+      "description": "Connected grow lights automatically switch according to the configured cultivation schedule."
+    },
+    {
+      "title": "Monitor",
+      "description": "View active lighting zones, schedules and system status through the monitoring interface."
+    }
+  ],
+  "applications": [
+    "Microgreen Farms",
+    "Indoor Farming",
+    "Vertical Growing Racks",
+    "Controlled Environment Agriculture",
+    "Agricultural Research",
+    "Indoor Nursery Systems"
+  ],
+  "technology": [
+    "LED Grow Lighting",
+    "ESP32-Based Control",
+    "Programmable Scheduling",
+    "Multi-Zone Control",
+    "IoT Connectivity",
+    "Remote Monitoring",
+    "Lighting Automation",
+    "Data Logging"
+  ]
+},
+{
+  "slug": "microgreen-irrigation-misting",
+  "category": "microgreens",
+  "title": "Smart Irrigation & Misting System",
+  "short": "Automated watering and misting control for consistent moisture management across microgreen growing systems.",
+  "img": "/products/microgreen-irrigation.png",
+  "overview": "The RKbyte Smart Irrigation & Misting System automates watering and misting operations for indoor microgreen cultivation. It combines programmable schedules with connected pumps, valves and misting components to provide consistent moisture delivery across multiple growing shelves or cultivation zones.",
+  "features": [
+    {
+      "title": "Automated Irrigation",
+      "description": "Control connected pumps and irrigation systems according to configured watering schedules."
+    },
+    {
+      "title": "Misting Control",
+      "description": "Automate misting cycles to support controlled moisture management during suitable cultivation stages."
+    },
+    {
+      "title": "Multi-Zone Management",
+      "description": "Control irrigation and misting independently across multiple shelves or growing zones."
+    },
+    {
+      "title": "Programmable Schedules",
+      "description": "Configure watering and misting cycles according to the cultivation schedule."
+    },
+    {
+      "title": "Remote Monitoring",
+      "description": "View irrigation activity, system status and active schedules through a connected interface."
+    },
+    {
+      "title": "Water Level Monitoring",
+      "description": "Monitor the available water supply and receive alerts when the reservoir requires attention."
+    }
+  ],
+  "workflow": [
+    {
+      "title": "Configure",
+      "description": "Set irrigation and misting schedules according to the growing cycle and selected zones."
+    },
+    {
+      "title": "Schedule",
+      "description": "The controller stores the configured watering and misting cycles."
+    },
+    {
+      "title": "Irrigate",
+      "description": "Connected pumps, valves or misting equipment operate automatically according to the configured schedule."
+    },
+    {
+      "title": "Monitor",
+      "description": "Track watering activity, water availability and system status through the monitoring interface."
+    }
+  ],
+  "applications": [
+    "Microgreen Farms",
+    "Indoor Growing Racks",
+    "Vertical Farms",
+    "Controlled Environment Agriculture",
+    "Plant Nurseries",
+    "Agricultural Research"
+  ],
+  "technology": [
+    "ESP32-Based Control",
+    "Water Pump Control",
+    "Solenoid Valves",
+    "Misting System",
+    "Water Level Sensor",
+    "Programmable Scheduling",
+    "IoT Connectivity",
+    "Remote Monitoring"
+  ]
+},
+{
+  "slug": "microgreen-growth-chamber",
+  "category": "microgreens",
+  "title": "Microgreen Growth Chamber",
+  "short": "A controlled-environment cultivation chamber for consistent microgreen growth with automated lighting, climate monitoring and irrigation.",
+  "img": "/products/microgreen-growth-chamber.png",
+  "overview": "The RKbyte Microgreen Growth Chamber is a controlled cultivation system designed for environments where consistent growing conditions are important. It combines environmental monitoring with programmable lighting and automated irrigation to provide a controlled space for microgreen cultivation, experimentation and small-scale production.",
+  "features": [
+    {
+      "title": "Controlled Growing Environment",
+      "description": "Monitor and manage key environmental conditions within an enclosed cultivation chamber."
+    },
+    {
+      "title": "Programmable Lighting",
+      "description": "Configure lighting schedules to provide consistent photoperiods throughout the cultivation cycle."
+    },
+    {
+      "title": "Automated Irrigation",
+      "description": "Operate connected pumps or irrigation systems according to configured watering schedules."
+    },
+    {
+      "title": "Temperature & Humidity Monitoring",
+      "description": "Continuously monitor temperature and humidity to provide visibility into chamber conditions."
+    },
+    {
+      "title": "Growth-Cycle Scheduling",
+      "description": "Configure automated operating schedules according to different stages of the cultivation cycle."
+    },
+    {
+      "title": "Remote Monitoring",
+      "description": "View chamber conditions, system status and operating schedules through a connected monitoring interface."
+    }
+  ],
+  "workflow": [
+    {
+      "title": "Prepare",
+      "description": "Place seeded trays inside the growth chamber and prepare the cultivation cycle."
+    },
+    {
+      "title": "Configure",
+      "description": "Set lighting, irrigation and environmental monitoring parameters for the selected growth cycle."
+    },
+    {
+      "title": "Cultivate",
+      "description": "The system operates programmed lighting and irrigation while continuously monitoring chamber conditions."
+    },
+    {
+      "title": "Monitor",
+      "description": "Track environmental conditions and system status throughout the cultivation cycle."
+    }
+  ],
+  "applications": [
+    "Microgreen Production",
+    "Indoor Farming",
+    "Controlled Environment Agriculture",
+    "Agricultural Research",
+    "Crop Trials",
+    "Small-Scale Commercial Cultivation"
+  ],
+  "technology": [
+    "ESP32-Based Control",
+    "LED Grow Lighting",
+    "Temperature Monitoring",
+    "Humidity Monitoring",
+    "Automated Irrigation",
+    "IoT Connectivity",
+    "Programmable Scheduling",
+    "Remote Monitoring"
   ]
 }
   ]
