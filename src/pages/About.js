@@ -33,26 +33,47 @@ export default function About() {
     <section className="bg-gray-50 text-gray-900">
 
       {/* Hero */}
-      <div className="container mx-auto px-6 pt-28 pb-20">
-        <div className="max-w-5xl mx-auto">
+      <section
+  className="relative bg-cover bg-center overflow-hidden"
+  style={{
+    backgroundImage: "url('legal-bg.png')",
+  }}
+>
+  {/* Soft white overlay */}
+  <div className="absolute inset-0 bg-white/50" />
 
-          <p className="text-sm md:text-base font-semibold tracking-[0.25em] uppercase text-rkaccent mb-6">
-            About RKbyte
-          </p>
+  {/* Content */}
+  <div className="relative container mx-auto px-6 pt-28 pb-24">
+    <div className="max-w-5xl mx-auto">
 
-          <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight leading-tight mb-8">
-            Engineering smarter.
-            <br />
-            <span className="text-rkaccent">Building what matters.</span>
-          </h1>
+      {/* Label */}
+      <div className="flex items-center gap-3 mb-6">
+        <span className="h-px w-10 bg-rkaccent" />
 
-          <p className="text-xl md:text-2xl text-gray-600 max-w-4xl leading-relaxed">
-            RKbyte designs and builds intelligent automation systems that turn
-            complex processes into simpler, smarter, and more efficient
-            workflows.
-          </p>
-        </div>
+        <p className="text-sm font-semibold tracking-[0.25em] uppercase text-rkaccent">
+          About RKbyte
+        </p>
       </div>
+
+      {/* Main heading */}
+      <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight leading-tight mb-8">
+        Engineering smarter.
+        <br />
+        <span className="text-rkaccent">
+          Building what matters.
+        </span>
+      </h1>
+
+      {/* Intro */}
+      <p className="text-xl md:text-2xl text-gray-600 max-w-4xl leading-relaxed">
+        RKbyte designs and builds intelligent automation systems that
+        turn complex processes into simpler, smarter, and more efficient
+        workflows.
+      </p>
+
+    </div>
+  </div>
+</section>
 
       {/* Story */}
       <div className="bg-white border-y border-gray-100">
